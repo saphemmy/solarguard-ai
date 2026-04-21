@@ -1,0 +1,8 @@
+services:
+  solarguard:
+    build: .
+    image: solarguard-ai:latest
+    container_name: solarguard-ai
+    ports:
+      - "8081:80"
+    restart: unless-stopped
