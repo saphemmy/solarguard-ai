@@ -4,3 +4,9 @@ Thumbs.db
 .idea/
 .vscode/
 node_modules/
+
+# Agent / AI tooling artefacts (not part of the project)
+.claude/
+skills/
+.cursor/
+.aider*
